@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8dda8dfd6a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Public/components/alert/alert.css">
+    <link rel="stylesheet" href="/Public/components/avatar/avatar.css">
+    <title>Orange U&I | Document</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo-text">
+            Orange U<span class="separation">&</span>I
+        </div>
+        <div class="documentation-link">
+            <button class="nav-button docs">Documentation</button>
+            <button class="nav-button github">Github</button>
+        </div>
+    </nav>
+    <section class="main-container">
+         <!-- </aside> -->
+        <div class="aside-bar">
+                <h2 class="aside-heading">Components</h2>
+                <ul>
+                    <li class="list-item"><a href="#alert-content">Alerts</a></li>
+                    <li class="list-item"><a href="#avatar-content"> Avatars</a></li>
+                    <li class="list-item"><a href="">Badges</a></li>
+                    <li class="list-item"><a href="">Buttons</a></li>
+                    <li class="list-item"><a href="">Cards</a></li>
+                    <li class="list-item"><a href="">Images</a></li>
+                    <li class="list-item"><a href="">Input</a></li>
+                    <li class="list-item"><a href="">List</a></li>
+                    <li class="list-item"><a href="">Modal</a></li>
+                    <li class="list-item"><a href="">Navigation</a></li>
+                    <li class="list-item"><a href="">Rating</a></li>
+                    <li class="list-item"><a href="">Simplified grid</a></li>
+                </ul>
+        </div>
+        <!-- section content -->
+        <div class="section-content">
+            <!-- alert code -->
+            <div id="alert-content">
+                <h1>Alerts</h1>
+                <p>Alerts are used to attract user's attention for important information without interrupting the user's flow.</p>
+                <h3>Example of alert bar without close button</h3>
+                <p>Alerts are available in 5 types- <span class="highlight-text-color"> success alert, error alert, warning alert, primary alert, secondary alert</span>.
+                    To use this alert just use class name alert-box and also add class according to alert type- alert-primary, alert-secondary, alert-danger, alert-success, alert-warning.
+                </p>
+                <div class="alert-output">
+                    <div class="alert-box primary-alert">A simple primary alert—check it out!</div>
+                    <div class="alert-box secondary-alert">A simple secondary alert—check it out!</div>
+                    <div class="alert-box success-alert">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        A simple success alert—check it out!
+                    </div>
+                    <div class="alert-box danger-alert">
+                        <span><i class="fas fa-exclamation-triangle"></i></span> 
+                        A simple danger alert—check it out!
+                    </div>
+                    <div class="alert-box warning-alert">
+                        <span><i class="fas fa-exclamation-triangle"></i></span>
+                        A simple warning alert—check it out!
+                    </div>
+                </div> 
+                <div class="alert-iframe">
+                    <iframe class="alert-iframe-responsive"
+                        src="https://carbon.now.sh/embed/HtyGDFHi5SM7YtJQ0ZCY"
+                        style="width: 900px; height: 344px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>  
+                </div>
+                <h2>Example of alert bar with close button</h2>
+                <p>Alert can have cross icon to close the alert. Check out html and vanilla JS code below.</p>
+                <button class="reset-button">Reset</button>
+                <div class="alert-box warning-alert close-alert">
+                    <span><i class="fas fa-exclamation-triangle"></i> </span>
+                    A simple warning alert—check it out! <button class="close-button">&#10005</button>
+                </div>
+                <div class="alert-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/wfwtypqsgDmYgRGHcE55"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>    
+                <h3>Javascript code</h3>
+                <div class="alert-iframe">
+                    <iframe
+                        src="https://carbon.now.sh/embed/QZbtJq3iVLiQTCnMyRwR"
+                        style=" width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>    
+            </div>
+
+            <!-- Avatar code -->
+            <div id="avatar-content">
+                <h1>Avatars</h1>
+                <p>The Avatar component is used to represent a user, and displays the profile picture.</p>
+                <h3>Example of Image Avatar</h3>
+                <p>Avatar is available in 3 different sizes. You can use image in Avatar. You need to include <span class="highlight-text-color">avatar and for size add class according to size sm,md and lg</span>.</p>
+                <div class="avatar-output">
+                    <span class="avatar"><img class="sm"src="https://i.pravatar.cc/150?img=2" alt="avatar"></span>
+                    <span class="avatar"><img class="md" src="https://i.pravatar.cc/150?img=2" alt="avatar"></span>
+                    <span class="avatar"><img class="lg" src="https://i.pravatar.cc/150?img=2" alt="avatar"></span>
+                </div>
+                <div class="avatar-iframe">
+                    <iframe
+                        src="https://carbon.now.sh/embed/CKZiK3dmiKTzHRJWPZlx"
+                        style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="/Public/components/alert/script.js">
+    </script>
+</body> 
+</html>

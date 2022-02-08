@@ -1,0 +1,106 @@
+@import url("/Public/components/avatar/avatar.css");
+:root{
+    --primary-color:#f59e0b;
+    --secodary-color:#374151;
+    --background-color: #F3F4F6;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+}
+/* nav bar style */
+.nav-bar{
+    border-bottom: 3px solid var(--primary-color);
+    /* height: 70px; */
+    display: flex; 
+    justify-content: space-between;
+}
+/* nav logo style */
+.logo-text{
+    color: var(--primary-color);
+    font-size: 24px;
+    text-align: center;
+    padding: 16px 16px;
+}
+.separation{
+    color: var(--secodary-color);
+    font-size: 16px;
+}
+
+/* nav links style */
+.documentation-link{
+    padding: 16px;
+    margin-top: 8px;
+}
+.nav-button{
+    border-radius: 5px;
+    background-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 18px;
+    height: 28px;
+    width: 120px;
+    border: 2px solid var(--primary-color);
+}
+
+/* main content */
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 477px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+.main-heading{
+    font-size: 36px;
+}
+.main-content{
+    font-size: 16px;
+}
+.main-button{
+    border-radius: 5px;
+    background-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 18px;
+    height: 36px;
+    width: 150px;
+    border: 2px solid var(--primary-color);
+    font-size: 16px;
+}
+.documentions{
+    background-color: var(--primary-color);
+    color:black;
+}
+.footer{
+    background-color: var(--secodary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding: 24px;
+    color: var(--background-color);
+    font-size: 16px;
+}
+.link-style{
+    text-decoration: none;
+    color:var(--background-color);
+    padding: 8px;
+    font-size: 16px;
+}
+.rights-reserved{
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 10px;
+}
+.social-links{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
