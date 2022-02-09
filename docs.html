@@ -8,8 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8dda8dfd6a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/Public/components/alert/alert.css">
     <link rel="stylesheet" href="/Public/components/avatar/avatar.css">
+    <link rel="stylesheet" href="/Public/components/badge/badge.css">
     <title>Orange U&I | Document</title>
 </head>
 <body>
@@ -117,9 +119,34 @@
                     </iframe>
                 </div>
             </div>
+
+            <!-- Badge code -->
+            <div id="badge content">
+                <h1>Badges</h1>
+                <p>Badges are being used to display a notification count or status information</p>
+                <h2>Example of Status Badge</h2>
+                <p>We have 2 types of status badges that can be integrated with Avatars. You can show colors to show the online status of user. And to show cart or notification count, 
+                    you can use number badge. Check code below to copy the html part as is.</p>
+                 <div class="badge-output">
+                    <span class="avatar">
+                        <img class="sm"src="https://i.pravatar.cc/150?img=2" alt="avatar">
+                        <span class="status-badge online-badge"></span>
+                    </span>
+                    <span class="avatar">
+                        <img class="md" src="https://i.pravatar.cc/150?img=2" alt="avatar">
+                        <span class="status-badge away-badge"></span>
+                    </span>
+                    <span class="avatar">
+                        <img class="lg" src="https://i.pravatar.cc/150?img=2" alt="avatar">
+                        <span class="status-badge offline-badge"></span>
+                    </span>
+                 </div>   
+            </div>
         </div>
     </section>
     <script type="text/javascript" src="/Public/components/alert/script.js">
     </script>
 </body> 
 </html>
+
+
