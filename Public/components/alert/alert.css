@@ -2,6 +2,9 @@
     --primary-color:#f59e0b;
     --secodary-color:#374151;
     --background-color: #F3F4F6;
+    --background-colorGreen:green;
+    --background-colorYellow:yellow;
+    --background-colorRed: red;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -58,6 +61,7 @@ body{
     position: sticky;
     top: 0px;
     height: 87vh;
+    
 }
 .aside-heading{
     padding-left: 48px;
@@ -80,7 +84,6 @@ a{
 /* section content style */
 .section-content{
     padding: 16px 48px;
-    
 }
 h2 h1 h3 {
     letter-spacing: 1px;

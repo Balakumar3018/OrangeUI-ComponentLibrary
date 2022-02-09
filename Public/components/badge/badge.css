@@ -1,0 +1,46 @@
+@import url("/Public/components/alert/alert.css");
+.badge-output{
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    display: flex;
+}
+.status-badge{
+    background-color: var(--background-colorGreen);
+    height: 8px;
+    min-width: 8px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 2px solid var(--background-color);
+    position: absolute;
+}
+.avatar-online{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.away-badge{
+    background-color: var(--background-colorYellow);
+    height: 12px;
+    min-width: 12px;
+    padding: 2px;
+}
+.avatar-away{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.busy-badge{
+    background-color: var(--background-colorRed);
+    height: 16px;
+    min-width: 16px;
+    padding: 2px;
+}
+.avatar-busy{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.badge-iframe{
+    padding: 8px;
+}
+
