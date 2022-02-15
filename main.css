@@ -43,7 +43,9 @@ body{
     width: 120px;
     border: 2px solid var(--primary-color);
 }
-
+.nav-button:hover{
+    background-color: var(--primary-color);
+}
 /* main content */
 .main-container{
     display: flex;
