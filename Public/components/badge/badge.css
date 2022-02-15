@@ -47,9 +47,25 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    font-size: 24px;
 }
 .cart-badge{
     color: var(--primary-color);
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+}
+.heart-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 24px;
+}
+.heart-badge{
+    color: var(--primary-color);
+    font-size: 16px;
+    position: relative;
+    top: -8px;
 }
 
 
