@@ -1,0 +1,61 @@
+@import url("/Public/components/alert/alert.css");
+.button-output{
+    border: 1px solid var(--primary-color);
+    display: flex;
+    padding: 24px;
+}
+.btn{
+    padding: 4px 16px;
+    margin-left: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-icon{
+    border:none;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: inherit;
+    padding: 5px;
+}
+.btn-icon:hover {
+    background-color: var(--primary-color);
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+.btn-secondary{
+    background-color: var(--secodary-color);
+    border: 2px solid var(--secodary-color);
+    color: var(--background-color);  
+}
+.btn-primary-outline{
+    background-color: var(--background-color);
+    border:2px solid var(--primary-color);
+}
+.btn-primary-outline:hover{
+    background-color: var(--primary-color);
+}
+.btn-secondary-outline{
+    background-color: var(--background-color);
+    border:2px solid var(--secodary-color);
+}
+.btn-secondary-outline:hover{
+    background-color: var(--secodary-color);
+    color: var(--background-color);
+}
+.btn-link{
+    border:none;
+    background-color: var(--background-color);
+    text-decoration: underline;
+    font-size: 24px;
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+.btn-link:hover{
+    opacity: 1.0;
+}
+.btn-disabled:hover{
+    cursor:not-allowed;
+}
+
