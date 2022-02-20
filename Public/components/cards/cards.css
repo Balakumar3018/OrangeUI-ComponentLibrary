@@ -1,0 +1,92 @@
+@import url("/Public/components/alert/alert.css");
+.basic-card{
+    width:fit-content;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 4px 8px black;
+    
+}
+.basic-card:hover{
+    box-shadow: 0px 4px 18px black;
+}
+.card-image{
+    display: flex;
+}  
+.card-image-button .btn-heart{
+    background-color: white;
+    position: relative;
+    top: -245px;
+    right: -195px;
+}
+.card-image-button .btn-heart:hover{
+    background-color: var(--primary-color);
+}
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    padding-bottom: 8px;
+}
+.card-description{
+    padding: 8px 0px 0px 16px;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.text-strike{
+    text-decoration: line-through;
+}
+.card-buttons .btn{
+    margin: 0px;
+}
+.card-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Badge card */
+.text-badge{
+    background-color: var(--primary-color);
+    position: relative;
+    bottom: 259px;
+    left:-54px;
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* text only card */
+.text-only-card{
+    padding: 8px;
+    width: 300px;
+    border-radius: 3px;
+}
+/* Overlay text card */
+.text-overlay-card{
+    opacity: 0.5;
+}
+.text{
+    position: relative;
+    top: -230px;
+    left: 50px;
+    background-color:var(--secodary-color);
+    color: white;
+    padding: 8px;
+    width: fit-content;
+}
+/* horizontal card */
+.horizontal-card{
+    display: flex;
+    width: 600px;
+    height: 250px;
+}
+.horizonatalcard-text-container{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.horizontal-card-buttons{
+    display: flex; 
+    padding:8px;
+}
+.horizontal-card-buttons .btn{
+    margin-left: 8px;
+}
