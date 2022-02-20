@@ -1,0 +1,27 @@
+@import url("/Public/components/alert/alert.css");
+.navigation-output{
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    /* display: flex; */
+    width: 900px;
+}
+.navigation-bar{
+    border: 1px solid var(--secodary-color);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    margin-top: 25px;
+    width: 200px;
+}
+#search-bar{
+    margin-top: 35px;
+    display: flex;
+}
+.nav-search-search-icons{
+    display: flex;
+}
+

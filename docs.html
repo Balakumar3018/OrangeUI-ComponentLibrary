@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="/Public/components/cards/cards.css">
     <link rel="stylesheet" href="/Public/components/image/image.css">
     <link rel="stylesheet" href="/Public/components/input/input.css">
+    <link rel="stylesheet" href="/Public/components/snackbar/snackbar.css">
+    <link rel="stylesheet" href="/Public/components/modal/modal.css">
+    <link rel="stylesheet" href="/Public/components/navigation/navigation.css">
     <title>Orange U&I | Document</title>
 </head>
 <body>
@@ -40,9 +43,9 @@
                     <li class="list-item"><a href="#cards-content">Cards</a></li>
                     <li class="list-item"><a href="#image-content">Images</a></li>
                     <li class="list-item"><a href="#input-content">Input</a></li>
-                    <li class="list-item"><a href="">List</a></li>
-                    <li class="list-item"><a href="">Modal</a></li>
-                    <li class="list-item"><a href="">Navigation</a></li>
+                    <li class="list-item"><a href="#snackbar-content">Snackbar</a></li>
+                    <li class="list-item"><a href="#modal-content">Modal</a></li>
+                    <li class="list-item"><a href="#navigation-content">Navigation</a></li>
                     <li class="list-item"><a href="">Rating</a></li>
                     <li class="list-item"><a href="">Simplified grid</a></li>
                 </ul>
@@ -166,6 +169,7 @@
                 <h1>Buttons</h1>
                 <p>The Button component is used to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.</p>
                 <div class="button-output">
+                    <button class="btn btn-icon close-btn">X</button>
                     <button class="btn btn-icon"><i class="fa-regular fa-heart"></i></button>
                     <button class="btn btn-icon btn-plus"><i class="fa-solid fa-plus"></i></button>
                     <button class="btn btn-icon btn-minus"><i class="fa-solid fa-minus"></i></button>
@@ -392,11 +396,95 @@
                     </iframe>
                 </div>
             </div>
+            <!-- snackbar code -->
+            <div id="snackbar-content">
+                <h1>Snackbar</h1>
+                <p>Snackbar inform users of a process that an app has performed or will perform. They appear temporarily, towards the bottom of the screen and disappear when we click action button</p>
+                <div class="snackbar-output">
+                    <button class="btn btn-primary snackbar-left-button">Open left snackbar</button>
+                    <button class="btn btn-primary snackbar-center-button">Open center snackbar</button>
+                    <button class="btn btn-primary snackbar-right-button">Open right snackbar</button>
+                    <div class="snackbar ">Snackbar message <button class="btn btn-action">Action</button></div>
+                </div>
+                <div class="snackbar-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/YDsv7sQs9sYYgsPlPOoS"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <!-- modal code -->
+            <div id="modal-content">
+                <h1>Modal</h1>
+                <p>The modal component provides a solid foundation for creating dialogs, popovers, lightboxes and when we click any buttons it will close the modal</p>
+                <button class="btn btn-primary reset-modal">reset</button>
+                <div class="modal-output">
+                    <div class="modal">
+                        <div class="modal-title">
+                            <h3>Modal title</h3>
+                            <button class="btn close-btn modal-closebtn">X</button>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+                        <button class="btn btn-primary modal-goback">Goback</button>
+                        <button class="btn btn-secondary modal-close">Close</button>
+                    </div>
+                </div>
+                <div class="modal-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/7z05Oj75qUKeQWhCz42W"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <h3>Javascript</h3>
+                    <iframe
+                    src="https://carbon.now.sh/embed/9PnCre0eAGG80N9Y3IGm"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <!-- navigation code -->
+            <div id="navigation-content">
+                <h1>Navigation</h1>
+                <p>Navigation bar is used to navigate through the web apps or websites.</p>
+                <div class="navigation-output">
+                    <div class="navigation-bar">
+                         <div class="nav-logo-items">
+                             <div class="logo"><a href="">Logo</a></div>
+                             <div><a href="">Buy</a></div>
+                             <div><a href="">Sell</a></div>
+                         </div>
+                         <div class="nav-search-search-icons">
+                             <span class="search-bar2">
+                                <input type="search" class="input-area" id="search-bar" placeholder="type to search">
+                             </span>
+                            <span class="avatar heart-icon">
+                                <i class="fa-solid fa-heart"></i>
+                                <span class="heart-badge">2</span>
+                            </span>
+                            <span class="avatar cart-icon">
+                                <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                                <span class="cart-badge ">2</span>
+                            </span>
+                         </div>
+                    </div>
+                </div>
+                <div class="navigation-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/eJ5RKFHMdixWOa3NOdFQ"
+                    style="width: 900px; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
         </div>
     </section>
     <script type="text/javascript" src="/Public/components/alert/script.js">
     </script>
     <script type="text/javascript" src="/Public/components/cards/cards.js"></script>
+    <script type="text/javascript" src="/Public/components/snackbar/snackbar.js"></script>
+    <script type="text/javascript" src="/Public/components/modal/modal.js"></script>
 </body> 
 </html>
 
