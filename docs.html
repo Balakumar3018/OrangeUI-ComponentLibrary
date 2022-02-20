@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/Public/components/badge/badge.css">
     <link rel="stylesheet" href="/Public/components/buttons/button.css">
     <link rel="stylesheet" href="/Public/components/cards/cards.css">
+    <link rel="stylesheet" href="/Public/components/image/image.css">
+    <link rel="stylesheet" href="/Public/components/input/input.css">
     <title>Orange U&I | Document</title>
 </head>
 <body>
@@ -36,8 +38,8 @@
                     <li class="list-item"><a href="#badge-content">Badges</a></li>
                     <li class="list-item"><a href="#button-content">Buttons</a></li>
                     <li class="list-item"><a href="#cards-content">Cards</a></li>
-                    <li class="list-item"><a href="">Images</a></li>
-                    <li class="list-item"><a href="">Input</a></li>
+                    <li class="list-item"><a href="#image-content">Images</a></li>
+                    <li class="list-item"><a href="#input-content">Input</a></li>
                     <li class="list-item"><a href="">List</a></li>
                     <li class="list-item"><a href="">Modal</a></li>
                     <li class="list-item"><a href="">Navigation</a></li>
@@ -328,6 +330,63 @@
                 <div class="horizontal-card-iframe">
                     <iframe
                     src="https://carbon.now.sh/embed/hDwR1mzCq15RrQ3sWVVX"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <!-- Image code -->
+            <div id="image-content"> 
+                <h1>Images</h1>
+                <p>Images can be responsive to fit the parent's width, and also can be customised to be round shaped</p>
+                <h2>Responsive Image</h2>
+                <p>You can add class img-responsive to make your image fit the width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the image.</p>
+                <div class="image-output">
+                    <img class="image-responsive" src="/Public/components/image/img.jpeg" >
+                </div>
+                <div class="responsive-img-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/DksDvyc2QGbL2DmiRV9C"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2>Round image</h2>
+                <p>You can add class round-image to make your image round shaped.</p>
+                <div class="round-image-output">
+                    <img class="round-image" src="https://i.pravatar.cc/150?img=2">
+                </div>
+                <div class="round-img-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/Uw7lfj45yV5CA188eacd"
+                    style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+            <!-- input code -->
+            <div id="input-content">
+                <h1>Inputs</h1>
+                <p>The Input component are used to get user input in a text field.</p>
+                <div class="input-output">
+                    <div class="input-fields">
+                        <label for="text-area">Text area</label>
+                        <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="start writing here.."></textarea>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" class="input-area" id="name" placeholder="type name here"> 
+                        <label for="email" >Email</label>
+                        <input type="email" name="email" class="input-area" id="email" placeholder="email" required>
+                        <label for="password" >Password</label>
+                        <input type="password" name="password" class="input-area" id="password" placeholder="password" required>
+                        <label for="success">success</label>
+                        <input type="text" name="success" class="input-area" id="success" placeholder="type name here"> 
+                        <label for="error">Error</label>
+                        <input type="text" name="error" class="input-area" id="error" placeholder="type name here">
+                    </div>
+                </div>
+                <div class="input-iframe">
+                    <iframe
+                    src="https://carbon.now.sh/embed/SyJZ3lxd9xf8BBga2m1W"
                     style="width: 900px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                     </iframe>

@@ -1,0 +1,32 @@
+@import url("/Public/components/alert/alert.css");
+.input-output{
+    border: 1px solid var(--primary-color);
+    display: flex;
+    padding: 24px;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+}
+#text-area{
+    width: 350px;
+    height: 100px;
+    outline: none;
+    border: 2px solid var(--secodary-color);
+    border-radius: 3px;
+}
+.input-area{
+    width: 280px;
+    height: 25px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid var(--secodary-color);
+}
+#success{
+    border: 2px solid var(--background-colorGreen);
+    color:var(--background-colorGreen);
+}
+#error{
+    border: 2px solid var(--background-colorRed);
+    color: var(--background-colorRed);
+}
