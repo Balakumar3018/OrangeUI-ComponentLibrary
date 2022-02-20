@@ -1,9 +1,4 @@
 @import url("/Public/components/alert/alert.css");
-.button-output{
-    border: 1px solid var(--primary-color);
-    display: flex;
-    padding: 24px;
-}
 .basic-card{
     width:fit-content;
     border-radius: 8px;
@@ -14,18 +9,17 @@
 .basic-card:hover{
     box-shadow: 0px 4px 18px black;
 }
-/* .card-image-button{
-
-} */
 .card-image{
     display: flex;
 }  
-.btn-heart{
+.card-image-button .btn-heart{
     background-color: white;
     position: relative;
-    top: -240px;
+    top: -245px;
     right: -195px;
-   
+}
+.card-image-button .btn-heart:hover{
+    background-color: var(--primary-color);
 }
 .card-text-container{
     display: flex;
@@ -49,14 +43,12 @@
     display: flex;
     justify-content: space-evenly;
 }
-
 /* Badge card */
-
 .text-badge{
     background-color: var(--primary-color);
     position: relative;
-    bottom: 255px;
-    left:-46px;
+    bottom: 259px;
+    left:-54px;
     padding: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -80,7 +72,6 @@
     width: fit-content;
 }
 /* horizontal card */
-
 .horizontal-card{
     display: flex;
     width: 600px;
@@ -99,4 +90,3 @@
 .horizontal-card-buttons .btn{
     margin-left: 8px;
 }
-

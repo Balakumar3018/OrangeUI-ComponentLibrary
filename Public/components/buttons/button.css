@@ -7,15 +7,17 @@
 .btn{
     padding: 4px 16px;
     margin-left: 8px;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
-.btn-icon{
+.btn.btn-icon{
     border:none;
     font-size: 24px;
     border-radius: 50%;
     background-color: inherit;
-    padding: 5px;
+    padding: 8px;
+    height: 42px;
+    width: 42px;
 }
 .btn-icon:hover {
     background-color: var(--primary-color);
