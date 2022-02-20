@@ -6,7 +6,7 @@
 }
 .image-responsive{
     width: 100%;
-    height: 100%;
+height: auto;
 }
 .round-image-output{
     border: 1px solid var(--primary-color);
