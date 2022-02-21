@@ -60,4 +60,8 @@
 .btn-disabled:hover{
     cursor:not-allowed;
 }
+.close-btn{
+    background-color: var(--backgroun-color);
+    border: none;
+}
 

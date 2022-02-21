@@ -43,8 +43,12 @@ body{
     width: 120px;
     border: 2px solid var(--primary-color);
 }
-.nav-button:hover{
+.docs:hover{
     background-color: var(--primary-color);
+}
+.github:hover{
+    background-color: var(--secodary-color);
+    color: var(--background-color);
 }
 /* main content */
 .main-container{
@@ -105,4 +109,25 @@ body{
 .social-links{
     padding-top: 8px;
     padding-bottom: 8px;
+}
+/* installation style */
+.installation-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+}
+.installation-iframe{
+    display: flex;
+    justify-content: center;
+}
+
+/* media queries */
+@media (max-width: 900px){
+    .aside-bar{
+        display: none;
+    }
+    .section-content {
+        margin: 1rem;
+    }
 }

@@ -1,0 +1,21 @@
+@import url("/Public/components/alert/alert.css");
+.snackbar-output{
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    height: 150px;
+}
+.snackbar{
+    border: 1px solid var(--secodary-color);
+    width: fit-content;
+    background-color: var(--secodary-color);
+    color: var(--background-color);
+    padding: 8px;
+    margin-top: 86px;
+    margin-left: -8px;
+    border-radius: 5px;
+}
+.btn-action{
+    border: none;
+    background-color: var(--secodary-color);
+    color: var(--primary-color);
+}

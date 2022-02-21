@@ -1,0 +1,9 @@
+const modalGoback=document.querySelector(".modal-goback");
+const modalClose=document.querySelector(".modal-close");
+const modalClosebtn=document.querySelector(".modal-closebtn")
+const resetModal=document.querySelector(".reset-modal");
+const modal=document.querySelector(".modal")
+resetModal.addEventListener("click",()=> modal.style.display="");
+modalGoback.addEventListener("click",()=> modal.style.display="none");
+modalClose.addEventListener("click",()=> modal.style.display="none");
+modalClosebtn.addEventListener("click",()=> modal.style.display="none");
