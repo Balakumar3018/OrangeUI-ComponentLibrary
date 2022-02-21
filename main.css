@@ -106,3 +106,12 @@ body{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+@media (max-width: 900px){
+    .aside-bar{
+        display: none;
+    }
+    .section-content {
+        margin: 1rem;
+    }
+}
