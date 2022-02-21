@@ -1,10 +1,6 @@
-Orange-UI
+1.Orange-UI
   Orange UI is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces
-  
-Preview
-  Insert gif or link to demo
-
-Components
+2.Components
   Alert
   Avatar
   Badge
@@ -15,12 +11,11 @@ Components
   Modal
   Snackbar
   Navigation.....adding more soon
-Features
+3.Features
   Lightweight
   Easy to use
   Modern Design
   
-Installation
+4.Installation
   You can simply install the library in your code by importing it as so:
-
   <link rel="stylesheet" href="https://orangeui.netlify.app/orange-ui.css">
