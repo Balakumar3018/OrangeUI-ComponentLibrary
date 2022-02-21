@@ -9,6 +9,7 @@
     border: 1px solid var(--secodary-color);
     display: flex;
     justify-content: space-between;
+    background-color: var(--secodary-color);
 }
 .nav-logo-items{
     display: flex;
@@ -17,6 +18,15 @@
     margin-top: 25px;
     width: 200px;
 }
+.text-logo{
+    color: var(--background-colorWhite);
+}
+.nav-search-search-icons .fa-cart-shopping{
+    color: var(--background-colorWhite);
+}
+.nav-search-search-icons .fa-heart{
+    color: var(--background-colorWhite);
+}
 #search-bar{
     margin-top: 35px;
     display: flex;
@@ -24,4 +34,5 @@
 .nav-search-search-icons{
     display: flex;
 }
+
 
