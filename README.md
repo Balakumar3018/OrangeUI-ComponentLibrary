@@ -20,4 +20,8 @@
   
 <h1>4.Installation</h1> 
   <p>You can simply install the library in your code by importing it as so:</p>
-  <iframe><link rel="stylesheet" href="https://orangeui.netlify.app/orange-ui.css"></iframe>
+  <iframe
+  src="https://carbon.now.sh/embed/8wxlMRwcHn1dR7ZPXcMG"
+  style="width: 807px; height: 108px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
