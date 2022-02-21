@@ -111,7 +111,7 @@ body{
     padding-bottom: 8px;
 }
 /* installation style */
-.installation-container{
+#installation-container{
     display: flex;
     justify-content: center;
     align-content: center;
