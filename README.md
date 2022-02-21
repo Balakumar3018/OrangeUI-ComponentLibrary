@@ -20,4 +20,4 @@
   
 <h1>4.Installation</h1> 
   <p>You can simply install the library in your code by importing it as so:</p>
-  <link rel="stylesheet" href="https://orangeui.netlify.app/orange-ui.css">
+  <iframe><link rel="stylesheet" href="https://orangeui.netlify.app/orange-ui.css"></iframe>
