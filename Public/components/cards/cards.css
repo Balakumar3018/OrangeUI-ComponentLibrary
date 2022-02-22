@@ -4,10 +4,9 @@
     border-radius: 8px;
     background-color: var(--background-colorWhite);
     box-shadow: 0px 4px 8px var(--secondary-color);
-    
 }
 .basic-card:hover{
-    box-shadow: 0px 4px 18px black;
+    box-shadow: 0px 4px 18px var(--secondary-color);
 }
 .card-image{
     display: flex;
