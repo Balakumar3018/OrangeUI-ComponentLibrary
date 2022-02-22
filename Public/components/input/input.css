@@ -12,7 +12,7 @@
     width: 350px;
     height: 100px;
     outline: none;
-    border: 2px solid var(--secodary-color);
+    border: 2px solid var(--secondary-color);
     border-radius: 3px;
 }
 .input-area{
@@ -20,7 +20,7 @@
     height: 25px;
     outline: none;
     border-radius: 5px;
-    border: 2px solid var(--secodary-color);
+    border: 2px solid var(--secondary-color);
 }
 #success{
     border: 2px solid var(--background-colorGreen);

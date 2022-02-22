@@ -27,8 +27,8 @@
     border: 2px solid var(--primary-color);
 }
 .btn-secondary{
-    background-color: var(--secodary-color);
-    border: 2px solid var(--secodary-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
     color: var(--background-color);  
 }
 .btn-primary-outline{
@@ -40,10 +40,10 @@
 }
 .btn-secondary-outline{
     background-color: var(--background-color);
-    border:2px solid var(--secodary-color);
+    border:2px solid var(--secondary-color);
 }
 .btn-secondary-outline:hover{
-    background-color: var(--secodary-color);
+    background-color: var(--secondary-color);
     color: var(--background-color);
 }
 .btn-link{
@@ -57,11 +57,14 @@
 .btn-link:hover{
     opacity: 1.0;
 }
+.btn-disabled{
+    opacity: 0.5;
+}
 .btn-disabled:hover{
     cursor:not-allowed;
 }
 .close-btn{
-    background-color: var(--backgroun-color);
+    background-color: var(--background-color);
     border: none;
 }
 

@@ -8,9 +8,9 @@
 }
 .modal{
     background-color: var(--background-colorWhite);
-    border: 1px solid var(--secodary-color);
+    border: 1px solid var(--secondary-color);
     padding: 32px;
-    box-shadow: 0px 4px 4px black;
+    box-shadow: 0px 4px 4px var(--secondary-color);
 }
 .modal-title{
     display: flex;
