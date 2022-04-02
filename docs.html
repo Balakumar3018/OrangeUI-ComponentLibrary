@@ -102,9 +102,10 @@
                 <h3>Example of Image Avatar</h3>
                 <p>Avatar is available in 3 different sizes. You can use image in Avatar. You need to include <span class="highlight-text-color">avatar and for size add class according to size sm,md and lg</span>.</p>
                 <div class="avatar-output">
-                    <span class="avatar"><img class="sm"src="https://i.pravatar.cc/150?img=2" alt="avatar"></span>
-                    <span class="avatar"><img class="md" src="https://i.pravatar.cc/150?img=2" alt="avatar"></span>
-                    <span class="avatar"><img class="lg" src="https://i.pravatar.cc/150?img=2" alt="avatar"></span>
+                    <img class="avatar lg" src="https://i.pravatar.cc/150?img=2" alt="avatar-lg">
+                    <img class="avatar md" src="https://i.pravatar.cc/150?img=2" alt="avatad-mf">
+                    <img class="avatar sm"src="https://i.pravatar.cc/150?img=2" alt="avatar-sm">
+                    <img class="avatar xs"src="https://i.pravatar.cc/150?img=2" alt="avatar-xs">    
                 </div>
                 <div class="avatar-iframe">
                     <iframe
@@ -127,20 +128,20 @@
                         <i class="fa-solid fa-heart"></i>
                         <span class="heart-badge">2</span>
                     </span>
-                    <span class="avatar cart-icon">
+                    <span class="cart-icon">
                         <i class="fa-solid fa-cart-shopping fa-lg"></i>
                         <span class="cart-badge ">2</span>
                     </span>
-                    <span class="avatar avatar-online">
-                        <img class="sm"src="https://i.pravatar.cc/150?img=2" alt="avatar">
+                    <span class="avatar-online">
+                        <img class="avatar sm"src="https://i.pravatar.cc/150?img=2" alt="avatar">
                         <span class="status-badge online-badge"></span>
                     </span>
-                    <span class="avatar avatar-away">
-                        <img class="md" src="https://i.pravatar.cc/150?img=2" alt="avatar">
+                    <span class="avatar-away">
+                        <img class="avatar md" src="https://i.pravatar.cc/150?img=2" alt="avatar">
                         <span class="status-badge away-badge"></span>
                     </span>
-                    <span class="avatar avatar-busy">
-                        <img class="lg" src="https://i.pravatar.cc/150?img=2" alt="avatar">
+                    <span class="avatar-busy">
+                        <img class="avatar lg" src="https://i.pravatar.cc/150?img=2" alt="avatar">
                         <span class="status-badge busy-badge"></span>
                     </span>
                  </div>
@@ -438,23 +439,26 @@
                 <p>Navigation bar is used to navigate through the web apps or websites.</p>
                 <div class="navigation-output">
                     <div class="navigation-bar">
-                         <div class="nav-logo-items">
-                             <div class="logo"><a class="text-logo" href="">Logo</a></div>
-                             <div><a class="text-logo" href="">Buy</a></div>
-                             <div><a class="text-logo" href="">Sell</a></div>
+                         <div class="nav-logo-LinkItems">
+                             <img class="image-logo" src="/Public/components/image/new-logo.png">
+                             <a class="text-logo" href="">Home</a>
+                             <a class="text-logo" href="">Shop now</a>
                          </div>
-                         <div class="nav-search-search-icons">
-                             <span class="search-bar2">
+                         <div class="nav-search-icons">
+                             <div class="search-bar2">
                                 <input type="search" class="input-area" id="search-bar" placeholder="type to search">
-                             </span>
-                             <span class="avatar heart-icon">
+                             </div>
+                             <div class="heart-icon">
                                 <i class="fa-solid fa-heart"></i>
                                 <span class="heart-badge">2</span>
-                             </span>
-                             <span class="avatar cart-icon">
+                             </div>
+                             <div class="cart-icon">
                                 <i class="fa-solid fa-cart-shopping fa-lg"></i>
                              <span class="cart-badge ">2</span>
-                            </span>
+                             </div>
+                             <div>
+                                <button class="btn btn-primary">Account</button>
+                             </div>
                          </div>
                     </div>
                 </div>

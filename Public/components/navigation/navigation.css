@@ -2,37 +2,40 @@
 .navigation-output{
     border: 1px solid var(--primary-color);
     padding: 8px;
-    /* display: flex; */
-    width: 900px;
+}
+.image-logo{
+    max-width: 10rem;
 }
 .navigation-bar{
-    border: 1px solid var(--secondary-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--secondary-color);
+    width: 100%;
 }
-.nav-logo-items{
+.nav-logo-LinkItems{
     display: flex;
-    justify-content: space-around;
-    padding: 8px;
-    margin-top: 25px;
-    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
 }
 .text-logo{
     color: var(--background-colorWhite);
 }
-.nav-search-search-icons .fa-cart-shopping{
-    color: var(--background-colorWhite);
-}
-.nav-search-search-icons .fa-heart{
-    color: var(--background-colorWhite);
-}
-#search-bar{
-    margin-top: 35px;
+.nav-search-icons{
+    width: 55%;
     display: flex;
+    justify-content:space-evenly
 }
-.nav-search-search-icons{
-    display: flex;
+.input-area{
+    height: 30px;
 }
+.nav-search-icons .heart-icon{
+    margin-top: -2px;
+}
+.nav-search-icons .cart-icon {
+    margin-top: 2px;
+}
+
 
 

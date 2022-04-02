@@ -2,20 +2,22 @@
 .avatar-output{
     border: 1px solid var(--primary-color);
     padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .avatar{
-    padding: 16px;
+    border-radius: 50%; 
+}
+.xs{
+    height: 36px;
 }
 .sm{
-    border-radius: 50%; 
     height: 48px;
 }
 .md{
-    border-radius: 50%; 
     height: 72px;
 }
-.lg{
-    border-radius: 50%; 
+.lg{ 
     height: 96px;
 }
 .avatar-iframe{

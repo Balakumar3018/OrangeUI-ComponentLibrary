@@ -3,6 +3,9 @@
     border: 1px solid var(--primary-color);
     padding: 8px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--secondary-color);
 }
 .status-badge{
     background-color: var(--background-colorGreen);
@@ -44,29 +47,27 @@
     padding: 8px;
 }
 .cart-icon{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    font-size: 20px;
-    margin: 10px;
+    font-size: 18px;
+    color: var(--background-colorWhite);
 }
 .cart-badge{
-    color: var(--primary-color);
+    color: var(--background-colorWhite);
     font-size: 16px;
     position: relative;
-    top: -2px;
+    top: -16px;
+    left:-4px;
+
 }
 .heart-icon{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
     font-size: 24px;
+    color: var(--background-colorWhite);
 }
 .heart-badge{
-    color: var(--primary-color);
+    color: var(--background-colorWhite);
     font-size: 16px;
     position: relative;
-    top: -10px;
+    top: -16px;
+    left: -4px;
 }
 
 
