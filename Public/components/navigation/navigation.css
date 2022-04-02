@@ -16,23 +16,18 @@
 }
 .nav-logo-LinkItems{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 30%;
 }
 .text-logo{
     color: var(--background-colorWhite);
 }
 .nav-search-icons{
-    width: 55%;
     display: flex;
-    justify-content:space-evenly
+    justify-content:space-evenly;
 }
 .input-area{
-    height: 30px;
-}
-.nav-search-icons .heart-icon{
-    margin-top: -2px;
+    height: 34px;
 }
 .nav-search-icons .cart-icon {
     margin-top: 2px;
