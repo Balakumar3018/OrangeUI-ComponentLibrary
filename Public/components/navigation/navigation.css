@@ -18,13 +18,15 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 30%;
 }
 .text-logo{
     color: var(--background-colorWhite);
 }
 .nav-search-icons{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    width: 40%;
 }
 .input-area{
     height: 34px;
