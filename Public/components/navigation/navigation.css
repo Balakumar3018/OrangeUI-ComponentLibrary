@@ -5,6 +5,7 @@
 }
 .image-logo{
     max-width: 10rem;
+    border-radius: 50% 50% 0% 0%;
 }
 .navigation-bar{
     display: flex;
