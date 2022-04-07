@@ -1,0 +1,23 @@
+.normalList-output, .stackedList-output {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+}
+.list-type-roman{
+    list-style-type: lower-roman;
+}
+.list-type-alpha{
+    list-style-type: lower-alpha;
+}
+.list-type-circle{
+    list-style-type: circle;
+}
+.stack-list{
+    list-style-type: none;
+    list-style: none;
+    background-color:var( --background-colorWhite);
+    margin: 0%;
+    border: 1px solid black;
+    max-width: 50rem;
+}

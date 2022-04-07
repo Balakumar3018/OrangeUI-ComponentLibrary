@@ -12,6 +12,7 @@
     --success-colorAlert:#a7f3d0;
     --danger-colorAlert:#fca5a5;
     --warning-colorAlert:#fef3c7;
+    --grayTex-color:gray;
     --rightsreserved-color:rgba(255, 255, 255, 0.596);
 }
 body{
