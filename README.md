@@ -11,7 +11,11 @@
   <p>Input</p>
   <p>Modal</p>
   <p>Snackbar</p>
-  <p>Navigation.....adding more soon</p>
+  <p>Navigation</p>
+  <p>Text utilities</p>
+  <p>List</p>
+  <p>Rating</p>
+  <p>Grid items.....adding more soon</p>
 
 <h1>3.Features</h1> 
   <p>Lightweight</p>
