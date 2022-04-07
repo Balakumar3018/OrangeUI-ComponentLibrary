@@ -1,0 +1,22 @@
+.grid-output-1{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+}
+.grid-col-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+    border: 1px solid var(--secondary-color);
+}
+.grid-col-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+    border: 1px solid var(--secondary-color);
+
+}
+.grid-card{
+    background-color: var(--primary-color);
+}
