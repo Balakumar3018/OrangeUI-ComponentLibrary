@@ -1,17 +1,7 @@
 <h1>1.Orange-UI</h1>
 <p>Orange UI is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces</p>
 
-<h1>2.Components</h1> 
-  <p>Alert</p>
-  <p>Avatar</p>
-  <p>Badge</p>
-  <p>Button</p>
-  <p>Card</p>
-  <p>Image</p>
-  <p>Input</p>
-  <p>Modal</p>
-  <p>Snackbar</p>
-  <p>Navigation</p>
+<h1>2.NewComponents added</h1> 
   <p>Text utilities</p>
   <p>List</p>
   <p>Rating</p>
